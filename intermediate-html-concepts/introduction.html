@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tags HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Document Tag Elements HTML</h1>
+    Existen muchas mas tags de html que aun no hemos visto: 
+    <h2>Document metadata</h2>
+    <p>
+    La metadata es importante para posicionar nuestras paginas web <br> <br>
+    Etiqueta <\base>: nos sirve para hacer un direccionamiento a nuestros links locales, asi por ejemplo, ./script.js se convertiria en https://www.miPage.com/script.js
+      <br>
+    Tambien tenemos la etiqueta head, link, meta, style y title.
+    </p>
+    <h2>Content Sectioning</h2>
+    <strong>Etiqueta adress:</strong> sirve para poner informacion de contacto de una persona:
+    <address>
+      Autor: Jhonatan David Arias Quispe <br>
+      Universidad: Universidad Nacional de San Agustin de Arequipa <br>
+      Gmail: jariasq@unsa.edu.pe <br>
+    </address> <br>
+    <strong>Etiqueta article: </strong>Sirve para definir una seccion de contenido que es autosustentable en si mismo. <br> <br>
+    <strong>Etiqueta aside: </strong> Normalmente es un contenido secundario, de poca ayuda o relevancia, que se tiene al costado de una pagina. <br> <br>
+    <strong>Etiqueta footer: </strong>Normalmente es usado para poner informacion de contacto con el desarrollador, contacto con la empresa o informacion adicional de la pagina en si. <br> <br>
+    <strong>Etiqueta header: </strong>Contrario al footer, aqui se puede poner informacion de navegacion de la pagina, un logo, el nombre o membrete de la pagina <br> <br>
+
+    <h2>Text content</h2>
+    <p>Lo que viene a continuacion es un bloque de cita:</p>
+    <blockquote cite="https://facebook.com">
+      Usando la etiqueta blockquote en HTML
+    </blockquote>
+    <dl>
+      <dt>Termino de definicion:</dt>
+      <dd>Description de definicion</dd>
+      <dt>Otro termino de definicion:</dt>
+      <dd>Otra descripcion de definicion</dd>
+    </dl>
+    <div>
+      Hello :D I'm inig Cat a div
+    </div>
+    <br> <br>
+
+    <h3>Etiquetas figure y figcaption</h3>
+    <figure>
+      <img src="https://www.infobae.com/new-resizer/dzaU-DctYjrj3e2y9E8JnD-PlrY=/1200x900/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/TZ7YUW6T25BTJHKHVATR6YOENU" alt="Indice B" width='350px'>
+        <figcaption>Indice BIG CAT: los gatos como medidores de riqueza</figcaption>
+    </figure>
+
+    <h3>Etiqueta hr => horizontal rule</h3>
+    <p>Este es un contenido normalito u.u</p>
+    <hr>
+    <p>Ete es otro contenido normalito u.u</p>
+    <h3>List Item li</h3>
+    <ul>
+      <li>Esta es una lista desordenada</li>
+      <li>Elemento de una lista desordenada</li>
+    </ul>
+    <ol>
+      <li>Esta es una lista ordenada</li>
+      <li>Elemento de una lista ordenada</li>
+    </ol>
+    <h3>Etiqueta pre, literal</h3>
+    <pre>Este contenido se escribira literalmente como esta aqui en el html, como prueba de ello, aqui no habra un salto de linea sin br:
+
+    Lo ves?</pre>
+
+    <hr>
+    <h2>Inline text semantics</h2>
+    <h3>Links</h3>
+    <a href="https://facebook.com">Este es un link</a>
+    <h3>Abreviacion o acronimo</h3>
+    <abbr title="Titulo atributo">Esta es una abreviacion</abbr>
+    <h3>Etiqueta b</h3>
+    <p>La etiqueta b estaba hecha para dar un <b>color de intensidad mas grande</b> a un texto, pero actualmente eso se debe hacer por css, y si quieres darle una importancia semantica a un contenido usar la etiqueta strong</p>
+    <h3>Etiqueta cite</h3>
+    <cite>Esta es una cita</cite>
+    <h3>Etiqueta code :D</h3>
+    <code> 
+      //Algun codigo en algun lenguaje de programacion.. definitivamente; <br>
+    estaEsunaFuncion(); <br>
+    int variable = 'holaaaa';
+    </code>
+    <h3>Elemento kbd</h3>
+    <p>El elemento kdb sirve para mostrar un keyboard action como <kbd>Ctrl + c</kbd></p>
+    <h3>Elemento var</h3>
+    <p>Es un elemento que representa una expresion matematica como <var>4 + 4 = 44</var></p>
+    <hr>
+
+    <h2>TABLE CONTENT</h2>
+    <table border='1'>
+      <caption>Esta es una tabla de ejemplo</caption>
+      <thead>
+      <tr>
+        <th>Encabezado 1</th>
+        <th>Encabezado 2</th>
+        <th>Encabezado 3</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fila 1, Celda 1</td>
+          <td>Fila 1, Celda 2</td>
+          <td>Fila 1, Celda 3</td>
+        </tr>
+        <tr>
+          <td>Fila 2, Celda 1</td>
+          <td>Fila 2, Celda 2</td>
+          <td>Fila 2, Celda 3</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <h2>Forms</h2>
+    <h3>Button</h3>
+    <button type="input">click me!</button>
+    <h3>BataList and label</h3>
+    <label for="fruta">Ingresa una opcion</label>
+    <input list='opciones' id='fruta' name="fruta" placeholder='Escribe una opcion'>
+    <datalist id='opciones'>
+      <option value="1">Esta es una opcion</option>
+      <option value="2">Esta es una opcion</option>
+      <option value="3">Esta no es una opcion</option>
+    </datalist>
+    <h2>Interactive elements</h2>
+    <details value='details' name='dajsldf' >
+      <summary>Detalles...</summary>
+      Estos son detalles
+    </details>
+  </body>
+</html>

@@ -1,7 +1,42 @@
 # 💻 The Odin Project - HTML and CSS Intermediate Course 💻
-Welcome to my repository of The Odin Project!
 
-This is a repository aimed at documenting my intermediate HTML and CSS learning process.
+Bienvenido a mi repositorio de HTML y CSS Intermedio!
+
+Este es un repositorio destinado a documentar mi proceso de aprendizaje en el curso de HTML y CSS avanzado.
+
+## Intermediate HTML concepts
+
+### Emmet
+
+### SVG
+
+### Tables
+
+## Intermediate CSS concepts
+
+### Default Styles
+
+### CSS Units
+
+### More text Styles
+
+### Advanced Selectors
+
+### Positioning
+
+### CSS Functio
+
+
+#### More CSS Properties
+
+
+## Forms
+
+## Grid
+
+## Recursos importantes
+- Vista detallada de todos los tags de html [MDN Web Docs References > HTML > Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
 
 
 
