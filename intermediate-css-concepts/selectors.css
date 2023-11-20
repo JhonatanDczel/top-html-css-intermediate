@@ -1,0 +1,22 @@
+main > div > div {
+  /* Selector with decendents*/
+}
+
+.group1 + div {
+  /* Selecciona el div que esta directamente al costado en el mismo nivel que group1*/
+}
+
+.group1 ~ div {
+  /* Selecciona todos los divs childs que hay dentro de group1*/
+}
+
+
+.box:hover.box::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  border: 1px solid black;
+}
+
