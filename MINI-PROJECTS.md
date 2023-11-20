@@ -26,4 +26,6 @@ Un ejemplode generacion de Passwords aleatoriamente y sugerirlo a modo de placeh
 
 Una pequenha barra o pagina de carga para esperar a que el contenido dentro de la pagina se haya cargado totalmente
 
+### Art CSS Galery
 
+Una galeria de arte generado con CSS unicamente, figuras y cosas hechas solo por CSS como si de illustrator o de inkscape se tratase
