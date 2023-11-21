@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Test your skills - Basic Forms MDN article</h1>
-    <h2>Ejercicio 1:</h2>
+    <h2>Basic controls 1:</h2>
     <form method='post' action='https://www.httpbin.org/post'>
       <label for="id">User ID </label>
       <br>
@@ -17,5 +17,26 @@
       <input type='password' name='psswd' id='psswd'> <br>
       <button type="submit">Enviar</button>
     </form>
+    <br>
+
+    <h2>Basic controls 2:</h2>
+    <fieldset>
+      <legend>Who is your favorite pony?</legend>
+      <input type='radio' name='pony' id='pinkie'>
+      <label for="pinkie">Pinkie Pie</label> <br>
+      <input type='radio' name='pony' id='rainbow'>
+      <label for='rainbow'>Rainbow Dash</label> <br>
+      <input type='radio' name='pony' id='twilight'>
+      <label for='rainbow'>Twilight Sparkie</label>
+    </fieldset>
+    <fieldset>
+      <legend>Hotdog preferences</legend>
+      <input type="checkbox" name="hotdog" value="vegan" id='vegan'>
+      <label for="vegan">Vegan</label> <br>
+      <input type="checkbox" name="hotdog" value="onions" id='onion'>
+      <label for="onion">Onions</label>
+    </fieldset>
+    <h2>Basic controls 3</h2>
+
   </body>
 </html>
