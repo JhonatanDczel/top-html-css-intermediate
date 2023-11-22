@@ -8,8 +8,8 @@
   </head>
   <body>
     <form>
-      <label for="regex">Regex para contrasenha: </label>
-      <input type="text" name="regex" id='regex' pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$">
+      <label for="regex">* Regex para contrasenha: </label>
+      <input type="text" name="regex" id='regex' pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$" required placeholder='Contra123'>
       <ul>
         <li>6 to 12 characters in length</li>
         <li>Must have at least one uppercaseletter</li>
@@ -17,8 +17,8 @@
         <li>Must hace at least one digit</li>
         <li>Should contain other characters</li>
       </ul>
-      <label for="url">Regex para un URL: </label>
-      <input type="text" name="url" id='url' pattern="^(https:\/\/|http:\/\/)?(www)?\.?\w+\.\w{2,6}(\/.*)?$">
+      <label for="url">* Regex para un URL: </label>
+      <input type="text" name="url" id='url' pattern="^(https:\/\/|http:\/\/)?(www)?\.?\w+\.\w{2,6}(\/.*)?$" required placeholder='https://hola.com/?'>
       <ul>
         <li>Ejemplo: <a href='https://www.sitepoint.com/demystifying-regex-with-practical-examples/' target='_blank'>https://www.sitepoint.com/demystifying-regex-with-practical-examples/</a> </li>
       </ul>
