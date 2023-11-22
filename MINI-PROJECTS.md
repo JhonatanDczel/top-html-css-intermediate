@@ -1,6 +1,6 @@
 # MINI PROYECTOS PARA APRENDER A PROFUNDIDAD CONCEPTOS DE HTML Y CSS
 
-Siguiendo la tendencia del `Aprendizaje basado en proyectos`, aqui presento una seria de ideas que se podrian desarrollar para dominar ciertos aspectos de CSS y HTML:
+Siguiendo la tendencia del `Project Based Learning`, aqui presento una seria de ideas que se podrian desarrollar para dominar ciertos aspectos de CSS y HTML:
 
 ### Turn on the flashlight:
 
