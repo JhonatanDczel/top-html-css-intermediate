@@ -11,5 +11,22 @@
       <h1>Speaker Submission</h1>
       <p><em>Want to speak at our fake conference? Fill out this form.</em></p>
     </header>
+    <form action='' method='get' class='speaker-form'>
+      <div class="form-row">
+        <label for="full-name">Name</label>
+        <input type="text" name="full-name" id='full-name'>
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" name="email" id='email' placeholder='hola@example.com'>
+      </div>
+      <fieldset class='legacy-form-row'>
+        <legend>Type of talk</legend>
+        <input type="radio" name="talk-type" value="main-stage" id='talk-type-1'>
+        <label for="talk-type-1" class='radio-label'>Main Stage</label>
+        <input type="radio" name="talk-type" value="workshop" checked id='talk-type-2'>
+        <label for="talk-type-2" class='radio-label'>Workshop</label>
+      </fieldset>
+    </form>
   </body>
 </html>
