@@ -38,6 +38,7 @@ Este es un repositorio destinado a documentar mi proceso de aprendizaje en el cu
 - Vista detallada de todos los tags de html [MDN Web Docs References > HTML > Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [Cheat Sheet de CSS](https://htmlcheatsheet.com/css/)
 - [Can i use?](https://caniuse.com/) Es una pagina que muestra las funcionalidades web y sus compatibilidades con los navegadores
+- [HTML5 Pattern]() es un sitio web que contiene expresiones regulares de patrones comunmente usados en formularios
 
 
 
