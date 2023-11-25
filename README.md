@@ -1,4 +1,5 @@
 <div align='center'>
+  <br>
   <img src='https://github.com/JhonatanDczel/img/blob/main/top/top-banner-vertical.png' width="250"> <br>
   <h1>HTML & CSS Intermediate</h1>
 </div>
