@@ -26,8 +26,8 @@ Se hicieron 2 proyectos para este curso, en el primero se usan validaciones de f
 
 <div align="center">
   <img src="https://github.com/JhonatanDczel/img/blob/main/sign-up-mockup.png" width="400"> <br> <br>
-  <a href="https://github.com/JhonatanDczel/sign-up-form"><img src="https://img.shields.io/badge/Live_Preview-e61920?style=for-the-badge&logo=Osano&logoColor=ffffff" height='25'/></a>
-  <a href="https://jhonatandczel.github.io/sign-up-form/"><img src="https://img.shields.io/badge/View_Code-000000?style=for-the-badge&logo=GitHub&logoColor=ffffff" height='26'/></a>
+  <a href="https://jhonatandczel.github.io/sign-up-form/"><img src="https://img.shields.io/badge/Live_Preview-e61920?style=for-the-badge&logo=Osano&logoColor=ffffff" height='25'/></a>
+  <a href="https://github.com/JhonatanDczel/sign-up-form"><img src="https://img.shields.io/badge/View_Code-000000?style=for-the-badge&logo=GitHub&logoColor=ffffff" height='26'/></a>
 </div>
 
 <br>
