@@ -1,0 +1,33 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  background-color: yellow;
+  width: 400px;
+  height: 400px;
+  padding: 16px;
+  border: 7px solid gray;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.container > div {
+  font-size: 4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: orange;
+}
